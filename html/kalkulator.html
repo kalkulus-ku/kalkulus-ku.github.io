@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="../css/kalkulator.css" />
+    <!-- <script src="https://unpkg.com/@phosphor-icons/web"></script> -->
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="imgJudul">
+        <img
+          src="../img/LOGO WEB.png"
+          alt="KALKULUS.KU"
+          style="max-width: 180px"
+        />
+      </div>
+      <div class="imglist" id="imglist">
+        <img src="../img/menu ic.png" alt="" style="width: 50px;">
+      </div>
+      <ul class="hidden" id="ulnav" style="border-top: 1px solid black; padding: 1rem;">
+        <li><a href="home.html">Beranda</a></li>
+        <li><a href="content.html">Materi</a></li>
+        <li><a href="kalkulator.html">Kalkulator</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+      </ul>
+    </nav>
+
+    <div class="container" style="padding-top: 65px;">
+      <h1>Kalkulator Turunan</h1>
+      <p>Contoh aja</p>
+    </div>
+
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+        <button onclick="appendOperator('+')">+</button>
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="appendOperator('-')">-</button>
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="appendOperator('*')">*</button>
+        <button onclick="appendNumber('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendOperator('/')">/</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>INI FOOTER (OPSIONAL)</p>
+    </footer>
+    <script src="../js/kalkulator.js"></script>
+  </body>
+</html>
