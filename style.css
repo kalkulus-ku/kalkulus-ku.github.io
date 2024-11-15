@@ -25,7 +25,7 @@ body {
   background-attachment: fixed;
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 @keyframes bodi{
