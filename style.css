@@ -15,12 +15,12 @@ html {
 body {
   background-color: #000000;
   
-  background-image: linear-gradient(to right, #003cff, #00f7ff);
+/*   background-image: linear-gradient(to right, #003cff, #00f7ff);
   background-size: 600%;
   background-position: right;
-  animation: bodi 5s linear infinite alternate;
+  animation: bodi 5s linear infinite alternate; */
   
-  /* background-image: url(../img/home\ materi.png); */
+  background-image: url(img/home\ materi.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: absolute;
