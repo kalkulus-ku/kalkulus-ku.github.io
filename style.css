@@ -111,8 +111,13 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
   }
-  .imglist i {
-    font-size: 30px;
+  .imglist img {
+    font-size: 1%;
+  }
+
+  .imgJudul {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -138,8 +143,8 @@ header {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 1vw;
-  padding: 2% 10%;
+  gap: 2vw;
+  padding: 8% 10%;
   width: 50vw;
 }
 
@@ -166,7 +171,7 @@ header {
   line-height: 1vw;
   animation: buttry 2s 2s forwards;
 }
-.tombol:hover{
+.tombol:hover {
   font-size: 1.3vw;
 }
 
@@ -221,7 +226,7 @@ header {
     top: 28vw;
   }
   100% {
-    background-color: #e2bf29;
+    background-color: #fff3bf;
     color: #000000;
     border: solid 1px black;
     top: 30vw;
