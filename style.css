@@ -25,7 +25,7 @@ body {
   background-attachment: fixed;
   background-size: 1440px 100vh;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
